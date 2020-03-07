@@ -1,3 +1,6 @@
+sudo apt-get install python3-pip
+python3 -m pip install ipykernel
+python3 -m ipykernel install --user
 sudo apt-get install python-pip
 sudo pip install jupyter
 jupyter notebook --generate-config
